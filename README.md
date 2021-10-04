@@ -8,18 +8,24 @@
 <img src=".\pictures\yelp_open_dataset.png">
 
 # :scroll: Tasks
-## Topic Modeling
+## :abc: Topic Modeling
 - :heavy_check_mark: Preprocessing : Tokenization, Stopwords, Lemmatization, Bigrams, Bag-of-words (BOW);
 - :heavy_check_mark: Use of Latent Dirichlet Allocation (LDA): find optimal number of topics, build LDA, visualize results.
 
-## image Classification
+<img src=".\pictures\lda_topic_modeling.png"><img src=".\pictures\topic_worldCloud.png">
+
+## :framed_picture: Image Classification
 - :x: I don't use SIFT or ORB;
-- :heavy_check_mark: I uses CNN (Convolutional Neural Network);
+- :heavy_check_mark: I use CNN (Convolutional Neural Network);
 - :heavy_check_mark: Prepare image folders structure to ease the data generation (input pipeline);
 - :heavy_check_mark: Use of Google Colab Pro to leverage from its GPU;
 - :heavy_check_mark: Use of VGG-16 pre-trained CNN from Keras (with Tensorflow backend);
 - :heavy_check_mark: Apply transfer learning methods for the classification of the images: feature extraction + fine-tuning;
 - :heavy_check_mark: Evaluate model predictions (especially mistakes).
+
+<img src=".\pictures\vgg16_structure.png">
+
+<img src=".\pictures\feature_learning_vs_fine_tuning.png">
 
 # :computer: Dependencies
 Google Colab GPU, Pandas, Numpy, matplotlib, scikit-learn, NLTK, Spacy, Gensim, WordCloud, Keras, Tensorflow
@@ -33,4 +39,4 @@ Google Colab GPU, Pandas, Numpy, matplotlib, scikit-learn, NLTK, Spacy, Gensim, 
 - [Courses on Keras - Python Deep Learning with Deep Lizard](https://deeplizard.com/learn/playlist/PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL);
 - CNN : [wikipedia](https://fr.wikipedia.org/wiki/R%C3%A9seau_neuronal_convolutif), [stanford.edu/shervine](https://stanford.edu/~shervine/l/fr/teaching/cs-230/pense-bete-reseaux-neurones-convolutionnels), [DataScientest.com](https://datascientest.com/convolutional-neural-network);
 - Tensorflow : [Image classification](https://www.tensorflow.org/tutorials/images/classification?hl=fr);
-- Keras : [Transfer Learning & Fine Tuning](https://keras.io/guides/transfer_learning/).
+- Keras : [Transfer Learning & Fine Tuning](https://keras.io/guides/transfer_learning/), [Keras pre-trained models](https://keras.io/api/applications/).
